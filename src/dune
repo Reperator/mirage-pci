@@ -1,0 +1,5 @@
+(library
+ (name mirage_pci)
+ (public_name mirage-pci)
+ (libraries mirage-device cstruct lwt)
+ (wrapped false))
